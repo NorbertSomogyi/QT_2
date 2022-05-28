@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     var r = 0.0
     val averageDegrees = mutableListOf<Double>()
     val rValues = mutableListOf<Double>()
-    while (r <= 25) {
+    while (r <= 18) {
         val averageDegree = network.averageDegree(r)
         println("Average degree at r = $r is $averageDegree")
         averageDegrees.add((averageDegree))
